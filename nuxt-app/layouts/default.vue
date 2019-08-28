@@ -105,6 +105,11 @@ export default {
           icon: 'mdi-chart-bubble',
           title: 'Inspire',
           to: '/inspire'
+        },
+        {
+          icon: 'mdi-file-outline',
+          title: 'Page1',
+          to: '/Page1'
         }
       ],
       miniVariant: false,

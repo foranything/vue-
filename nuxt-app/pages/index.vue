@@ -76,6 +76,13 @@
         </v-card-actions>
       </v-card>
     </v-flex>
+    <v-btn
+      color="primary"
+      nuxt
+      to="/page1"
+    >
+      page1
+    </v-btn>
   </v-layout>
 </template>
 

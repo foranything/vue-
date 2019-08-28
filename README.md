@@ -98,7 +98,7 @@ https://baianat.github.io/vee-validate/
 nuxt 국제화(internationalization) 라이브러리
 ## setup
 ```sh
-> npm install nuxt-i18n
+> yarn add nuxt-i18n
 ```
 
 ## Ref
