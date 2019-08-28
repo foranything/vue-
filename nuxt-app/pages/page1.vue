@@ -24,7 +24,7 @@
       <h1>4. v-for</h1>
       <div id="app-4">
         <v-card>
-          <v-list-item v-bind:key="todo" v-for="todo in todos">
+          <v-list-item v-bind:key="todo.id" v-for="todo in todos">
             <v-list-item-content>
               <v-list-item-title>{{ todo.text }}</v-list-item-title>
             </v-list-item-content>
@@ -97,9 +97,9 @@ export default {
     },
     todos() {
       return [
-        { text: this.$t("page1.todos.text1") },
-        { text: this.$t("page1.todos.text2") },
-        { text: this.$t("page1.todos.text3") }
+        {id: 0, text: this.$t("page1.todos.text1") },
+        {id: 1, text: this.$t("page1.todos.text2") },
+        {id: 2, text: this.$t("page1.todos.text3") }
       ]
     }
   },
