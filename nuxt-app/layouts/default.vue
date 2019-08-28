@@ -110,6 +110,11 @@ export default {
           icon: 'mdi-file-outline',
           title: 'Page1',
           to: '/Page1'
+        },
+        {
+          icon: 'mdi-file-outline',
+          title: 'Page2',
+          to: '/Page2'
         }
       ],
       miniVariant: false,

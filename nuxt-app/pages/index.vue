@@ -74,15 +74,27 @@
             Continue
           </v-btn>
         </v-card-actions>
+        <v-card-actions>
+          <v-spacer />
+          <div class="text-center">
+            <v-btn
+              color="primary"
+              nuxt
+              to="/page1"
+            >
+              page1
+            </v-btn>
+            <v-btn
+              color="primary"
+              nuxt
+              to="/page2"
+            >
+              page2
+            </v-btn>
+          </div>
+        </v-card-actions>
       </v-card>
     </v-flex>
-    <v-btn
-      color="primary"
-      nuxt
-      to="/page1"
-    >
-      page1
-    </v-btn>
   </v-layout>
 </template>
 

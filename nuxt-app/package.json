@@ -12,7 +12,8 @@
   },
   "dependencies": {
     "nuxt": "^2.0.0",
-    "nuxt-i18n": "^6.1.0"
+    "nuxt-i18n": "^6.1.0",
+    "vee-validate": "^3.0.3"
   },
   "devDependencies": {
     "@nuxtjs/vuetify": "^1.0.0"

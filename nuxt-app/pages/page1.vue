@@ -1,5 +1,5 @@
 <template>
-  <section class="container">
+  <v-container>
     <div id='app1'>
       <h1>1. default</h1>
       <div id="app">
@@ -84,7 +84,7 @@
       <br />
 
     </div>
-  </section>
+  </v-container>
 </template>
 
 <script>
