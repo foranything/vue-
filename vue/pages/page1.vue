@@ -8,7 +8,6 @@
 
       <div id="app-2">
         <span v-bind:title="message2">
-
           {{ $t("page1.app2-msg") }}
         </span>
       </div>
@@ -104,4 +103,3 @@ export default {
 
 <style>
 </style>
-

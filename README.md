@@ -4,6 +4,11 @@
 * [VeeValidate](#VeeValidate)
 * [Nuxt-i18n](#Nuxt-i18n)
 
+---
+<br/>
+<br/>
+
+
 # Vue.js
 ## 개요
 사용자 인터페이스를 만들기 위한 진보적인 프레임워크
@@ -20,6 +25,11 @@
 
 ## Ref
 https://kr.vuejs.org/
+
+---
+<br/>
+<br/>
+
 
 # Nuxt.js
 ## 개요
@@ -52,12 +62,23 @@ https://kr.vuejs.org/
 ## Ref
 https://ko.nuxtjs.org
 
+---
+<br/>
+<br/>
+
+
+
 # Vuetify.js
 ## 개요
 Vue용 UI framework
 
 ## Ref
 https://vuetifyjs.com
+
+---
+<br/>
+<br/>
+
 
 # VeeValidate
 ## 개요
@@ -70,6 +91,10 @@ Template Based Validation Framework for Vue.js
 
 ## Ref
 https://baianat.github.io/vee-validate/
+
+---
+<br/>
+<br/>
 
 # Nuxt-i18n
 ## 개요
