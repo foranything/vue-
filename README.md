@@ -18,7 +18,7 @@
 > vue create `project-name`
 ```
 
-## 실행 
+## 실행
 ```sh
 > npm serve
 ```
@@ -44,23 +44,20 @@ https://kr.vuejs.org/
 
 ## Setup
 ```sh
-> git clone https://github.com/nuxt/nuxtjs.org.git
-> cd nuxtjs.org/
-> yarn install
-> git clone https://github.com/nuxt/docs
+> npx create-nuxt-app <project-name>
 ```
 또는
 ```sh
-> vue init nuxt-community/starter-template <project-name>
+> yarn create nuxt-app <project-name>
 ```
 
 ## Development
-```sh 
+```sh
 > yarn dev
 ```
 
 ## Ref
-https://ko.nuxtjs.org
+https://nuxtjs.org/
 
 ---
 <br/>
