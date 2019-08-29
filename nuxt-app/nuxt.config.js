@@ -31,7 +31,8 @@ export default {
   */
   plugins: [
     '~/plugins/i18n.js',
-    '~/plugins/vee-validate.js'
+    '~/plugins/vee-validate.js',
+    '~/plugins/vuetify.js'
   ],
   /*
   ** Nuxt.js dev-modules

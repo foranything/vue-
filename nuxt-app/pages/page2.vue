@@ -16,11 +16,23 @@
             label="text"
             hint="At least 3 characters"
             counter
-            @click:append="show1 = !show1"
-          ></v-text-field>
+            @click:append="show1 = !show1" />
             <ul>
               <li v-bind:key="error" v-for="error in errors">{{ error }}</li>
             </ul>
+        </ValidationProvider>
+
+        <ValidationProvider
+          rules="required|min:3"
+          v-slot="{ errors }"
+        >
+          <v-text-field
+            v-model="password"
+            :append-icon="show ? 'visibility' : 'visibility_off'"
+            :type="show ? 'text' : 'password'"
+            counter
+            @click:append="show = !show"/>
+          <div> {{ errors[0] }} </div>
         </ValidationProvider>
 
       </v-col>
@@ -33,6 +45,9 @@ export default {
   data() {
     return {
       text: '',
+      password: '',
+      icon: 'visibility',
+      show: false
     }
   }
 }
