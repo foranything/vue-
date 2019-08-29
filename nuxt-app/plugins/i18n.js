@@ -10,12 +10,12 @@ export default ({ app, store }) => {
     locale: store.state.locale,
     fallbackLocale: 'en',
     messages: {
-      'en': require('~/static/en.json'),
-      'ko': require('~/static/ko.json')
+      en: require('~/static/en.json'),
+      ko: require('~/static/ko.json')
     }
   })
 
-  app.i18n.path = (link) => {
+  app.i18n.path = link => {
     if (app.i18n.locale === app.i18n.fallbackLocale) {
       return `/${link}`
     }
