@@ -69,7 +69,15 @@ export default {
       clipped: false,
       drawer: false,
       fixed: false,
-      items: [
+      miniVariant: false,
+      right: true,
+      rightDrawer: false,
+      title: 'Vuetify.js'
+    }
+  },
+  computed: {
+    items() {
+      return [
         {
           icon: 'mdi-apps',
           title: 'Welcome',
@@ -83,18 +91,14 @@ export default {
         {
           icon: 'mdi-file-outline',
           title: 'Page1',
-          to: '/Page1'
+          to: `/${this.$store.state.locale}/Page1`
         },
         {
           icon: 'mdi-file-outline',
           title: 'Page2',
           to: '/Page2'
         }
-      ],
-      miniVariant: false,
-      right: true,
-      rightDrawer: false,
-      title: 'Vuetify.js'
+      ]
     }
   }
 }

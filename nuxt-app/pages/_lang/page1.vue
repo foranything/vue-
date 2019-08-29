@@ -114,6 +114,8 @@ export default {
     },
     changeLanguage(lang) {
       this.$i18n.locale = lang
+      history.pushState(null, null, `/${lang}/Page1`)
+      this.$store.commit('SET_LANG', lang)
     }
   }
 }
