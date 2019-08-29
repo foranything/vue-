@@ -24,11 +24,13 @@
       <h1>4. v-for</h1>
       <div id="app-4">
         <v-card>
-          <v-list-item v-bind:key="todo.id" v-for="todo in todos">
-            <v-list-item-content>
-              <v-list-item-title>{{ todo.text }}</v-list-item-title>
-            </v-list-item-content>
-          </v-list-item>
+          <v-list>
+            <v-list-item v-bind:key="todo.id" v-for="todo in todos">
+              <v-list-item-content>
+                <v-list-item-title>{{ todo.text }}</v-list-item-title>
+              </v-list-item-content>
+            </v-list-item>
+          </v-list>
         </v-card>
       </div>
       <br />
@@ -57,11 +59,13 @@
       <h1>7. component</h1>
       <div id="app-7">
         <v-card>
-          <todo-item
-            v-for="item in groceryList"
-            v-bind:todo="item"
-            v-bind:key="item.id">
-          </todo-item>
+          <v-list>
+            <todo-item
+              v-for="item in groceryList"
+              v-bind:todo="item"
+              v-bind:key="item.id">
+            </todo-item>
+          </v-list>
         </v-card>
       </div>
       <br />
