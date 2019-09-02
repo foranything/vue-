@@ -60,7 +60,7 @@
         <v-card-actions>
           <v-spacer />
           <div class="text-center">
-            <v-btn color="primary" nuxt to="/page1">
+            <v-btn color="primary" nuxt :to="page1">
               page1
             </v-btn>
             <v-btn color="primary" nuxt to="/page2">
@@ -81,6 +81,11 @@ export default {
   components: {
     Logo,
     VuetifyLogo
+  },
+  computed: {
+    page1() {
+      return `/${this.$store.state.locale}/Page1`
+    }
   }
 }
 </script>
